@@ -14,7 +14,7 @@ export default function Home() {
     {
       id: 1,
       // img: "https://img.freepik.com/free-photo/green-sofa-white-living-room-with-free-space_43614-834.jpg?w=996&t=st=1681563946~exp=1681564546~hmac=eb7a2619356e969a5c4814a85c1b33c53303c61a5338bee2987e5d56f1c6db6e",
-      img: "https://img.freepik.com/free-photo/interior-design-with-photoframes-couch_23-2149385435.jpg?w=1060&t=st=1681583090~exp=1681583690~hmac=cc2932d49baf841b0d31d98ac5f3a9ec55de912efb48fc2b1f2cd33d59b677ff",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Finterior-design-with-photoframes-couch.jpg?alt=media&token=18d07b5b-89cd-4930-82d0-bc0ffc3cd6d4",
       title: "Family House For Sell",
       type: "Sell",
       type_id: 3,
@@ -23,7 +23,7 @@ export default function Home() {
     },
     {
       id: 2,
-      img: "https://img.freepik.com/free-photo/house-isolated-field_1303-23773.jpg?w=1060&t=st=1681572892~exp=1681573492~hmac=4d7fc7c3af18810ca48e9064f1d89e583a2104586b8af229611b3a5a18130ea8",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhouse-isolated-field_1303-23773.avif?alt=media&token=61c9a627-7d67-4dad-aaaa-034e4e13bf68",
       title: "Countryside Modern Lake View ",
       type: "Rent",
       type_id: 2,
@@ -32,7 +32,7 @@ export default function Home() {
     },
     {
       id: 3,
-      img: "https://img.freepik.com/free-photo/empty-room-with-chairs-desks_23-2149008873.jpg?w=1060&t=st=1681572970~exp=1681573570~hmac=96396e49d1d2e44e3b3292d54489c895733b35b650c5c3976cf148e86022f839",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fempty-room-with-chairs-desks_23-2149008873.avif?alt=media&token=7f25d0b6-dbb3-4594-826b-e96e134c2e58",
       title: "Family House For Sell",
       type: "Rent",
       type_id: 2,
@@ -41,7 +41,7 @@ export default function Home() {
     },
     {
       id: 4,
-      img: "https://img.freepik.com/free-photo/gray-sofa-white-living-room-with-copy-space_43614-884.jpg?w=1380&t=st=1681572426~exp=1681573026~hmac=2a8ecf72dfb574ba62bafa50c2f8690fffec9bee8578f0dcb4ba0ef4c830907c",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fgray-sofa-white-living-room-with-copy-space_43614-884.avif?alt=media&token=c48b67d5-39ba-4534-8731-1baf1016ab5d",
       title: "Countryside Modern Lake View ",
       type: "Sell",
       type_id: 3,
@@ -50,7 +50,7 @@ export default function Home() {
     },
     {
       id: 5,
-      img: "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.jpg?w=1060&t=st=1681572477~exp=1681573077~hmac=8473bbcac96a3a1a7388e3c0c523c6764a1c2ef2cd092acce37f3064e880404d",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2F3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.avif?alt=media&token=68e2153d-9848-4ca0-b920-758f1614b8de",
       title: "Family House For Sell",
       type: "Sell",
       type_id: 3,
@@ -59,7 +59,7 @@ export default function Home() {
     },
     {
       id: 6,
-      img: "https://img.freepik.com/free-photo/nobody-office-lobby-with-wooden-bench_1262-3579.jpg?w=1060&t=st=1681572500~exp=1681573100~hmac=b07f817f3fc3cfe6802fc5235b76695776cb423d2d1fd2f13c9ee3198d9d0d1a",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fnobody-office-lobby-with-wooden-bench_1262-3579.avif?alt=media&token=4db87546-110f-477c-8789-9f7fb8ce3607",
       title: "Countryside Modern Lake View ",
       type: "Rent",
       type_id: 2,
@@ -93,12 +93,12 @@ export default function Home() {
     },
     {
       id: 2,
-      img: "https://img.freepik.com/free-photo/row-old-buildings-made-classic-style-barcelona-spain_1268-17995.jpg?w=1380&t=st=1681585287~exp=1681585887~hmac=b9319655e844d6279880f559474a746f58e6422a1aa6e34862bbf98ce13cb8e4",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Frow-old-buildings-made-classic-style-barcelona-spain_1268-17995.avif?alt=media&token=67faa408-3e0c-468a-9d1b-345128300668",
       title: "San Francisco",
     },
     {
       id: 3,
-      img: "https://img.freepik.com/free-photo/modetn-city-luxury-center-dubai-united-arab-emirates_231208-7596.jpg?w=1060&t=st=1681585329~exp=1681585929~hmac=225b8c39378bcd5f4b323c0e0b73c8dee6bea5e7797f5899fb9d6e6d4f5ef172",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2F1.avif?alt=media&token=846140ac-f8a6-4f5b-9ac6-a29def187725",
       title: "Madrid",
     },
     {
@@ -111,7 +111,7 @@ export default function Home() {
   const [agents, setAgents] = useState([
     {
       id: 1,
-      img: "https://img.freepik.com/free-photo/portrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded_171337-1267.jpg?w=1060&t=st=1681590530~exp=1681591130~hmac=bd3819676f1018370f2a7418c9b06dff9b99de65e312414efcd4d3b56bb14e41",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhandsome-bearded-guy-posing-against-white-wall_273609-20597.avif?alt=media&token=a2b84bac-9e6c-49b7-9b6d-1bd69cecae9b",
       name: "Andren Willium",
       description: "Sunshine",
       phone: "000 000 0000",
@@ -119,7 +119,7 @@ export default function Home() {
     },
     {
       id: 2,
-      img: "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=1060&t=st=1681843269~exp=1681843869~hmac=5d1f0c910f479da8d276dfe16d0404d3282a377c4a811b70258425042af1bae5",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fwaist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.avif?alt=media&token=9acb8958-049f-4eb3-8072-49f21ba8215e",
       name: "Polly Matzinger",
       description: "Sweet Home",
       phone: "000 000 0000",
@@ -127,7 +127,7 @@ export default function Home() {
     },
     {
       id: 3,
-      img: "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?w=1060&t=st=1681590490~exp=1681591090~hmac=471469d9bfbb9f2c1572afde6c236d2b45bd0d04706f89f12793c60f863cfe06",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fportrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded_171337-1267.avif?alt=media&token=2b883e20-f456-45b8-9b69-a1ee73d4b60f",
       name: "Patty Watson",
       description: "Eco Builders",
       phone: "000 000 0000",
@@ -135,7 +135,7 @@ export default function Home() {
     },
     {
       id: 4,
-      img: "https://img.freepik.com/free-photo/attractive-eastern-woman-covers-head-with-white-headscarf-guard-her-dignity-power-has-special-dress-code-keeps-hands-crossed-looks-with-modesty-poses-purple-wall-islamic-rules_273609-26323.jpg?w=1060&t=st=1681590616~exp=1681591216~hmac=8da162cb3bf5359c5eddb78d951abf747e8681b749cd393876db38c64a85b4f3",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fattractive-eastern-woman-covers-head-with-white-headscarf-guard-her-dignity-power-has-special-dress-code-keeps-hands-crossed-looks-with-modesty-poses-purple-wall-islamic-rules_273609-26323.avif?alt=media&token=732b24d9-fbcb-4541-860b-440dc1d9d2c7",
       name: "Sarah Boysen",
       description: "Mark Street",
       phone: "000 000 0000",
@@ -423,7 +423,7 @@ export default function Home() {
             >
               <img
                 className="rounded-lg scale-90  hover:scale-95  ease-in duration-300  object-cover drop-shadow-xl"
-                src="https://img.freepik.com/free-photo/frame-mockup-luxury-dining-room-cream-color-background_41470-5110.jpg?w=740&t=st=1681907432~exp=1681908032~hmac=e2101bbaff7da9a6eb2d34bf6c7f0946bbce2e54a9a50841fe4edc34df35c7c5"
+                src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fframe-mockup-luxury-dining-room-cream-color-background_41470-5110.avif?alt=media&token=77515f61-8a14-4628-9e4d-7b5d8566b474"
               />
 
               <span className=" absolute flex h-8 w-8 bottom-52 right-60 ">
