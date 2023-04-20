@@ -29,7 +29,7 @@ export default function Home() {
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhouse-isolated-field_1303-23773.avif?alt=media&token=61c9a627-7d67-4dad-aaaa-034e4e13bf68",
+      img: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Countryside Modern Lake View ",
       type: "Rent",
       type_id: 2,
@@ -47,7 +47,7 @@ export default function Home() {
     },
     {
       id: 4,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fgray-sofa-white-living-room-with-copy-space_43614-884.avif?alt=media&token=c48b67d5-39ba-4534-8731-1baf1016ab5d",
+      img: "https://images.pexels.com/photos/10486238/pexels-photo-10486238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Countryside Modern Lake View ",
       type: "Sell",
       type_id: 3,
@@ -56,7 +56,7 @@ export default function Home() {
     },
     {
       id: 5,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2F3d-rendering-loft-luxury-living-room-with-shelf-near-dining-table_105762-2053.avif?alt=media&token=68e2153d-9848-4ca0-b920-758f1614b8de",
+      img: "https://images.pexels.com/photos/3946663/pexels-photo-3946663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Family House For Sell",
       type: "Sell",
       type_id: 3,
