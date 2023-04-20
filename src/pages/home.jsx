@@ -38,7 +38,7 @@ export default function Home() {
     },
     {
       id: 3,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fempty-room-with-chairs-desks_23-2149008873.avif?alt=media&token=7f25d0b6-dbb3-4594-826b-e96e134c2e58",
+      img: "https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Family House For Sell",
       type: "Rent",
       type_id: 2,
@@ -65,7 +65,7 @@ export default function Home() {
     },
     {
       id: 6,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fnobody-office-lobby-with-wooden-bench_1262-3579.avif?alt=media&token=4db87546-110f-477c-8789-9f7fb8ce3607",
+      img: "https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Countryside Modern Lake View ",
       type: "Rent",
       type_id: 2,
@@ -99,12 +99,12 @@ export default function Home() {
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Frow-old-buildings-made-classic-style-barcelona-spain_1268-17995.avif?alt=media&token=67faa408-3e0c-468a-9d1b-345128300668",
+      img: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "San Francisco",
     },
     {
       id: 3,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2F1.avif?alt=media&token=846140ac-f8a6-4f5b-9ac6-a29def187725",
+      img: "https://images.pexels.com/photos/2955030/pexels-photo-2955030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Madrid",
     },
     {
@@ -117,7 +117,7 @@ export default function Home() {
   const [agents, setAgents] = useState([
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhandsome-bearded-guy-posing-against-white-wall_273609-20597.avif?alt=media&token=a2b84bac-9e6c-49b7-9b6d-1bd69cecae9b",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2F2.PNG?alt=media&token=940f5b9d-4704-4631-a6e0-763de66ca977",
       name: "Andren Willium",
       description: "Sunshine",
       phone: "000 000 0000",
@@ -125,7 +125,7 @@ export default function Home() {
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fwaist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.avif?alt=media&token=9acb8958-049f-4eb3-8072-49f21ba8215e",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2F3.PNG?alt=media&token=a9debda5-e29d-4ab0-92a0-e576abcc75bd",
       name: "Polly Matzinger",
       description: "Sweet Home",
       phone: "000 000 0000",
@@ -133,7 +133,7 @@ export default function Home() {
     },
     {
       id: 3,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fportrait-successful-man-having-stubble-posing-with-broad-smile-keeping-arms-folded_171337-1267.avif?alt=media&token=2b883e20-f456-45b8-9b69-a1ee73d4b60f",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fwaist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer.jpg?alt=media&token=55ac7147-9615-4c16-8921-b2cab0aa452a",
       name: "Patty Watson",
       description: "Eco Builders",
       phone: "000 000 0000",
@@ -141,7 +141,7 @@ export default function Home() {
     },
     {
       id: 4,
-      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fattractive-eastern-woman-covers-head-with-white-headscarf-guard-her-dignity-power-has-special-dress-code-keeps-hands-crossed-looks-with-modesty-poses-purple-wall-islamic-rules_273609-26323.avif?alt=media&token=732b24d9-fbcb-4541-860b-440dc1d9d2c7",
+      img: "https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fattractive-eastern-woman-covers-head-with-white-headscarf-guard-her-dignity-power-has-special-dress-code-keeps-hands-crossed-looks-with-modesty-poses-purple-wall-islamic-rules.jpg?alt=media&token=f26797df-cb17-4b95-a874-f2e21cf64eb7",
       name: "Sarah Boysen",
       description: "Mark Street",
       phone: "000 000 0000",
@@ -503,7 +503,7 @@ export default function Home() {
             >
               <img
                 className="rounded-lg scale-90  hover:scale-95  ease-in duration-300  object-cover drop-shadow-xl"
-                src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fframe-mockup-luxury-dining-room-cream-color-background_41470-5110.avif?alt=media&token=77515f61-8a14-4628-9e4d-7b5d8566b474"
+                src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhome.PNG?alt=media&token=6336d908-d268-4858-b18d-25adea214abe"
               />
 
               <span className=" absolute flex h-8 w-8 bottom-52 right-60 ">
