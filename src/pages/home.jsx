@@ -9,6 +9,12 @@ import ScrollButton from "../components/scrollFloatingButton";
 import Footer from "../components/footer";
 import FirstSection from "../components/first_home_section";
 
+// const navbarPages = [{
+//   id:0,
+//   title:"home",
+
+// }]
+
 export default function Home() {
   const [properties, setProperties] = useState([
     {
@@ -163,7 +169,7 @@ export default function Home() {
         }
       },
       {
-        threshold: 1,
+        threshold: 0,
       }
     );
 
@@ -175,13 +181,13 @@ export default function Home() {
   const [choosevisible, setchooseVisible] = useState();
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
+    const observer1 = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
         setchooseVisible(entry.isIntersecting);
 
         if (entry.isIntersecting) {
-          observer.unobserve(entry.target);
+          observer1.unobserve(entry.target);
         }
       },
       {
@@ -189,16 +195,30 @@ export default function Home() {
       }
     );
 
-    observer.observe(chooseSectionRef.current);
+    observer1.observe(chooseSectionRef.current);
   }, []);
 
   const [videoVisible, setvideoVisible] = useState(false);
+
+  const [menuVisible, setmenuVisible] = useState(false);
+
+  // const [navBarvisible, setnavBarVisible] = useState(false);
+
+  // const toggleVisible = () => {
+  //   const scrolled = document.documentElement.scrollTop;
+  //   if (scrolled > 270) {
+  //     setnavBarVisible(true);
+  //   } else if (scrolled <= 270) {
+  //     setnavBarVisible(false);
+  //   }
+  // };
+  // window.addEventListener("scroll", toggleVisible);
 
   return (
     <>
       <div className="relative">
         <div className="bg">
-          <nav className="bg-opacity-0 border-gray-200 dark:bg-gray-900 ">
+          <nav className="bg-opacity-0 border-gray-200 dark:bg-gray-900  ">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
@@ -208,10 +228,31 @@ export default function Home() {
                 />
               </a>
 
-              <div className="flex md:order-2 space-x-3">
+              <div>
+                <ul className="flex gap-5 max-sm:hidden">
+                  <li className=" text-emerald-400 text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                    Home
+                  </li>
+                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                    About
+                  </li>
+                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                    Property
+                  </li>
+                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                    papes
+                  </li>
+                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                    Contact
+                  </li>
+                </ul>
+              </div>
+
+              <div className="flex md:order-2 space-x-3 max-sm:hidden">
                 <IconButton
                   icon={<i className="fa-solid fa-code-compare"></i>}
                   flag={false}
+                  // className="max-sm:hidden"
                 />
                 <IconButton
                   icon={<i className="fa-regular fa-heart"></i>}
@@ -251,6 +292,45 @@ export default function Home() {
                 </svg>
               </button> */}
               </div>
+
+              <div>
+                <button
+                  className="btn  btn-circle bg-white text-emerald-400  xl:hidden hover:bg-emerald-400 hover:text-white "
+                  onClick={() => {
+                    setmenuVisible(!menuVisible);
+                  }}
+                >
+                  <i className="fa-solid fa-bars"></i>
+                </button>
+                <div className=" bg-white absolute left-0 w-screen me-5 z-50">
+                  <ul
+                    className={
+                      menuVisible ? "ease-in-out duration-300  " : "hidden"
+                    }
+                  >
+                    <li className="text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                      Home
+                    </li>
+                    <hr></hr>
+                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                      About
+                    </li>
+                    <hr></hr>
+                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                      Property
+                    </li>
+                    <hr></hr>
+                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                      papes
+                    </li>
+                    <hr></hr>
+                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                      Contact
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
               {/* <div
               className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
               id="navbar-cta"
@@ -296,7 +376,7 @@ export default function Home() {
           <FirstSection />
         </div>
 
-        <section className="xl:py-28 flex flex-wrap justify-center space-x-2  ">
+        <section className="xl:py-28 flex flex-wrap justify-center space-x-2 max-sm:py-10">
           <div className="xl:w-3/12 space-y-5">
             <p className="uppercase font-semibold text-xl text-emerald-400  max-sm:text-center max-sm:relative list-disc">
               our Clients
@@ -498,7 +578,7 @@ export default function Home() {
               "flex flex-wrap justify-center py-12 " +
               (visible
                 ? " animate-wiggle -translate-y-6 duration-1000 ease-out"
-                : " opacity-0 translate-y-14 duration-500")
+                : "  opacity-0 translate-y-14 duration-500")
             }
             ref={citySectionRef}
           >
