@@ -218,8 +218,8 @@ export default function Home() {
     <>
       <div className="relative">
         <div className="bg">
-          <nav className="bg-opacity-0 border-gray-200 dark:bg-gray-900  ">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
+          <nav className="bg-opacity-0 border-gray-200 dark:bg-gray-900">
+            <div className="w-11/12 flex items-center justify-between mx-auto p-4 ">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Flogo_light.png?alt=media&token=06f0238a-cb8c-4afe-8c04-aa4b40a04502"
@@ -228,27 +228,25 @@ export default function Home() {
                 />
               </a>
 
-              <div>
-                <ul className="flex gap-5 max-sm:hidden">
-                  <li className=" text-emerald-400 text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
-                    Home
-                  </li>
-                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
-                    About
-                  </li>
-                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
-                    Property
-                  </li>
-                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
-                    papes
-                  </li>
-                  <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
-                    Contact
-                  </li>
-                </ul>
-              </div>
+              <ul className="gap-5 hidden xl:flex">
+                <li className=" text-emerald-400 text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                  Home
+                </li>
+                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                  About
+                </li>
+                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                  Property
+                </li>
+                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                  papes
+                </li>
+                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                  Contact
+                </li>
+              </ul>
 
-              <div className="flex md:order-2 space-x-3 max-sm:hidden">
+              <div className=" space-x-3 hidden lg:flex">
                 <IconButton
                   icon={<i className="fa-solid fa-code-compare"></i>}
                   flag={false}
@@ -264,36 +262,14 @@ export default function Home() {
                 />
                 <button
                   type="button"
-                  className="font text-white bg-emerald-400 hover:bg-emerald-500  rounded-full font-medium px-4 py-2 text-center mr-3 md:mr-0 group "
+                  className="font text-white bg-emerald-400 hover:bg-emerald-500  rounded-full font-medium px-4 py-2 text-center  md:mr-0 group "
                 >
                   <i className="fa-solid fa-circle-plus group-hover:rotate-180 ease-in duration-300 me-2"></i>
                   Add Property
                 </button>
-                {/* <button
-                data-collapse-toggle="navbar-cta"
-                type="button"
-                className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                aria-controls="navbar-cta"
-                aria-expanded="false"
-              >
-                <span className="sr-only">Open main menu</span>
-                <svg
-                  className="w-6 h-6"
-                  aria-hidden="true"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </button> */}
               </div>
 
-              <div>
+              <div className=" xl:hidden">
                 <button
                   className="btn  btn-circle bg-white text-emerald-400  xl:hidden hover:bg-emerald-400 hover:text-white "
                   onClick={() => {
@@ -330,53 +306,12 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-
-              {/* <div
-              className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
-              id="navbar-cta"
-            >
-              <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
-                    aria-current="page"
-                  >
-                    Home
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                  >
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div> */}
             </div>
           </nav>
           <FirstSection />
         </div>
 
-        <section className="xl:py-28 flex flex-wrap justify-center space-x-2 max-sm:py-10">
+        <section className="flex flex-wrap justify-center space-x-2 max-sm:py-10 md:py-16 xl:py-28">
           <div className="xl:w-3/12 space-y-5">
             <p className="uppercase font-semibold text-xl text-emerald-400  max-sm:text-center max-sm:relative list-disc">
               our Clients
@@ -391,7 +326,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex flex-wrap xl:w-6/12 gap-5 justify-between max-sm:w-7/12 max-sm:mx-auto">
+          <div className="flex flex-wrap w-7/12 md:w-full lg:w-6/12 gap-5 justify-between max-sm:mx-auto">
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand1.svg"
               className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl"
@@ -420,13 +355,13 @@ export default function Home() {
         </section>
 
         <section className="bg-teal-50 py-12">
-          <div className="flex  justify-around flex-wrap">
+          <div className="flex justify-between flex-wrap items-center w-11/12 mx-auto">
             <Title
               bgTitle={"properties"}
               subTitle={"Our PROPERTIES"}
               primaryTitle={"Latest Properties"}
             />
-            <div className="space-x-2 xl:mt-16 max-sm:mt-5">
+            <div className="space-x-2 mt-5 xl:mt-16 mx-auto md:mx-0">
               {types.map((type) => (
                 <button
                   key={type.id}
@@ -446,7 +381,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center xl:py-12 max-sm:py-5">
+          <div className="flex flex-wrap justify-center py-5 lg:py-12">
             {propertiesToRender.map((property) => (
               <PropertyCard
                 key={property.id}

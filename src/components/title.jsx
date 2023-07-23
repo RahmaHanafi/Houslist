@@ -5,15 +5,15 @@ export default function Title({
   textPosition,
 }) {
   return (
-    <div className=" relative">
-      <p className="bg-font text-9xl text-gray-200 max-sm:text-5xl max-sm:text-center">
+    <div className="relative mx-auto md:mx-0">
+      <p className="bg-font text-5xl text-center sm:text-start lg:text-9xl lg:text-start text-gray-200 ">
         {bgTitle}
       </p>
 
-      <p className="uppercase font-semibold text-emerald-400 xl:absolute xl:top-14 max-sm:text-center max-sm:relative">
+      <p className="uppercase font-semibold text-emerald-400 lg:absolute lg:top-14 max-sm:text-center max-sm:relative">
         {subTitle}
       </p>
-      <p className="capitalize text-3xl font-bold xl:absolute xl:top-20 font max-sm:text-center max-sm:relative">
+      <p className="capitalize text-3xl font-bold lg:absolute lg:top-20 font max-sm:text-center max-sm:relative">
         {primaryTitle}
       </p>
     </div>
