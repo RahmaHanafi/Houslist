@@ -37,12 +37,12 @@ export default function FirstSection() {
 
   return (
     <>
-      <section className="">
-        <h1 className="font-bold text-white text-5xl text-center animate-wiggle  xl:w-6/12 max-sm:w-11/12 max-sm:text-3xl font mx-auto xl:pt-32 max-sm:pt-8">
+      <section className="w-11/12 sm:w-8/12 md:w-8/12 xl:w-6/12 flex-col justify-center mx-auto  ">
+        <h1 className="font-bold text-white text-center animate-wiggle text-3xl xl:text-5xl font mx-auto pt-8 md:pt-32">
           Find the perfect place to Live with your family
         </h1>
 
-        <div className="flex flex-wrap gap-5 xl:w-5/12 mx-auto pt-10 pb-4 max-sm:w-11/12 max-sm:justify-center">
+        <div className="flex flex-wrap gap-5 mx-auto pt-10 pb-4 justify-center">
           {categories.map((category) => (
             <div key={category.id} className="flex gap-1">
               <div
@@ -64,21 +64,23 @@ export default function FirstSection() {
         </div>
 
         <form>
-          <div className="flex flex-wrap xl:w-7/12 max-sm:w-12/12  xl:mx-auto mt-5 max-sm:gap-2">
+          <div className="flex flex-wrap w-full xl:mx-auto mt-5 gap-2 md:gap-0 justify-center">
             <input
               type="search"
               id="search-dropdown"
-              className="block p-3 xl:w-4/12 z-20 max-sm:w-11/12 max-sm:mx-auto max-sm:rounded-lg  text-sm text-gray-900 bg-white rounded-l-lg border-l-gray-100 border-l-2 border border-gray-300 !outline-none "
+              className="block p-3 z-20 w-11/12 md:w-4/12 max-sm:mx-auto rounded-lg md:rounded-r-none text-sm text-gray-900 bg-white  border-l-gray-100 border-l-2 border border-gray-300 !outline-none "
               placeholder="Enter keyword here..."
               required
             />
-            <select className="p-3 xl:w-3/12 max-sm:w-11/12 max-sm:mx-auto max-sm:rounded-lg text-gray-400 bg-white border shadow-sm outline-none cursor-pointer">
+
+            <select className="p-3 w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none  text-gray-400 bg-white border shadow-sm outline-none cursor-pointer">
               <option>Property Type</option>
               <option>Family House</option>
               <option>Apartment</option>
               <option>Condo</option>
             </select>
-            <select className="p-3 xl:w-3/12 max-sm:w-11/12 max-sm:mx-auto max-sm:rounded-lg text-gray-400 bg-white border shadow-sm outline-none cursor-pointer">
+
+            <select className="p-3  w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none text-gray-400 bg-white border shadow-sm outline-none cursor-pointer">
               <option>All Cities</option>
               <option>Los Angeles</option>
               <option>Chicago</option>
@@ -87,7 +89,7 @@ export default function FirstSection() {
 
             <button
               type="submit"
-              className="xl:w-2/12 uppercase gap-2 flex justify-center font p-5 text-sm font-medium text-white rounded-r-lg  bg-emerald-400 hover:bg-emerald-500 group max-sm:mx-auto max-sm:rounded-lg"
+              className="md:w-2/12 uppercase gap-2 flex justify-center font p-5 text-sm font-medium text-white  bg-emerald-400 hover:bg-emerald-500 group max-sm:mx-auto rounded-lg md:rounded-l-none"
             >
               <i className="fa-solid fa-magnifying-glass group-hover:scale-125  py-1 ease-in duration-300"></i>
               Search
@@ -95,7 +97,7 @@ export default function FirstSection() {
           </div>
         </form>
 
-        <div className="flex flex-wrap text-gray-300 text-xl gap-1  mx-auto xl:w-4/12 max-sm:w-11/12 max-sm:justify-center py-5 font-medium   animate-wiggle  ">
+        <div className="flex flex-wrap text-gray-300 text-xl gap-1 mx-auto w-full justify-center py-5 font-medium animate-wiggle  ">
           We’ve more than <p className="text-white font-bold">54,000</p>{" "}
           apartments, place & plot.{" "}
         </div>
