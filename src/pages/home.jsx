@@ -355,7 +355,7 @@ export default function Home() {
         </section>
 
         <section className="bg-teal-50 py-12">
-          <div className="flex justify-between flex-wrap items-center w-11/12 mx-auto">
+          <div className="flex justify-between flex-wrap items-center w-9/12 sm:w-4/5 lg:w-3/4  mx-auto">
             <Title
               bgTitle={"properties"}
               subTitle={"Our PROPERTIES"}
@@ -381,7 +381,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center py-5 lg:py-12">
+          <div className="flex flex-wrap justify-center py-5 lg:py-12 w-full gap-3">
             {propertiesToRender.map((property) => (
               <PropertyCard
                 key={property.id}
@@ -431,7 +431,7 @@ export default function Home() {
           <div className=" flex flex-wrap xl:space-x-5 justify-center ">
             <div
               className={
-                "xl:w-4/12  mx-5 relative" +
+                "w-10/12 sm:w-3/5 md:w-4/12  mx-5 relative" +
                 (choosevisible ? " animate-fadeInLeft" : " opacity-0")
               }
               ref={chooseSectionRef}
@@ -441,7 +441,7 @@ export default function Home() {
                 src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhome.PNG?alt=media&token=6336d908-d268-4858-b18d-25adea214abe"
               />
 
-              <span className=" absolute flex h-8 w-8 bottom-52 right-60 ">
+              <span className=" absolute flex h-8 w-8 bottom-1/2 right-1/2 ">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                 <button
                   className="relative btn btn-circle border-white  bg-white text-emerald-400  hover:bg-emerald-400 hover:border-emerald-400 hover:text-white bottom-2 right-2 "
@@ -456,7 +456,7 @@ export default function Home() {
             </div>
             <div
               className={
-                " xl:w-4/12 max-sm:w-10/12 " +
+                "w-10/12 sm:w-3/5 md:w-4/12  " +
                 (choosevisible ? "animate-fadeInRight" : " opacity-0")
               }
               ref={chooseSectionRef}
@@ -467,29 +467,29 @@ export default function Home() {
                 primaryTitle={"The experts in local and international property"}
                 textPosition={"text-start"}
               ></Title>
-              <p className="mt-10 mb-6 text-lg text-gray-500 max-sm:text-center ">
+              <p className="mt-10 mb-6 text-lg text-gray-500 text-center md:text-start ">
                 Agent hen an unknown printer took a galley of type and scramble
                 d it to make a type specimen book. It has survived not only five
                 centuries, but also the leap into electronic.{" "}
               </p>
 
-              <div className="flex space-x-2 max-sm:justify-center">
+              <div className="flex space-x-2 justify-center md:justify-start">
                 <i className="fa-solid fa-check text-emerald-400 py-1"></i>
                 <p className=" font-semibold">Outstanding property</p>
               </div>
-              <div className="flex space-x-2 max-sm:justify-center">
+              <div className="flex space-x-2 justify-center md:justify-start">
                 <i className="fa-solid fa-check text-emerald-400 py-1"></i>
                 <p className=" font-semibold">Modern City Locations</p>
               </div>
-              <div className="flex space-x-2 max-sm:justify-center">
+              <div className="flex space-x-2 justify-center md:justify-start">
                 <i className="fa-solid fa-check text-emerald-400 py-1"></i>
                 <p className=" font-semibold">Specialist services</p>
               </div>
-              <div className="flex space-x-2 max-sm:justify-center">
+              <div className="flex space-x-2 justify-center md:justify-start">
                 <i className="fa-solid fa-check text-emerald-400 py-1"></i>
                 <p className=" font-semibold">Market-leading research</p>
               </div>
-              <div className="flex max-sm:justify-center">
+              <div className="flex justify-center md:justify-start">
                 <button className=" btn mt-5 bg-emerald-50 border-emerald-50 text-emerald-500 hover:bg-emerald-400 hover:text-white hover:border-emerald-400 ">
                   Read more
                 </button>
@@ -510,7 +510,7 @@ export default function Home() {
 
           <div
             className={
-              "flex flex-wrap justify-center py-12 " +
+              "flex flex-wrap justify-center py-12 gap-3 " +
               (visible
                 ? " animate-wiggle -translate-y-6 duration-1000 ease-out"
                 : "  opacity-0 translate-y-14 duration-500")

@@ -2,14 +2,14 @@ export default function CityCard({ img, title }) {
   return (
     <div
       className={
-        "xl:w-2/12 max-sm:w-11/12 shadow-xl bg-white  mx-3 mb-6 rounded-lg group cursor-pointer "
+        "w-10/12 sm:w-2/5 lg:w-3/12 xl:w-1/6 shadow-xl bg-white  rounded-lg group cursor-pointer "
       }
     >
       <div className="relative overflow-hidden rounded-t-lg">
         <img
           src={img}
           alt="livng room"
-          className="rounded-t-lg scale-100 group-hover:scale-110 cursor-pointer ease-in duration-300  object-cover"
+          className="rounded-t-lg scale-100 group-hover:scale-110 cursor-pointer ease-in duration-300 object-cover w-full"
           style={{ height: "15rem" }}
         />
       </div>

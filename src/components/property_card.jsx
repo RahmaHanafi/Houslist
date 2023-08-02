@@ -10,7 +10,7 @@ export default function PropertyCard({
   return (
     <div
       className={
-        "xl:w-3/12 shadow-xl bg-white rounded-t-lg  mx-3 mb-6 group cursor-pointer"
+        "w-10/12 sm:w-2/5 lg:w-3/12 shadow-xl bg-white rounded-t-lg  group cursor-pointer"
         // (visible
         //   ? " animate-wiggle -translate-y-6 duration-1000 ease-out"
         //   : " opacity-0 translate-y-14 duration-500")
@@ -21,7 +21,7 @@ export default function PropertyCard({
         <img
           src={img}
           alt="livng room"
-          className="rounded-t-lg scale-100 group-hover:scale-110 ease-in duration-300  object-cover"
+          className="rounded-t-lg scale-100 group-hover:scale-110 ease-in duration-300  object-cover w-full"
           style={{ height: "17rem" }}
         />
         <div className="bg-emerald-500 text-white w-20 text-center p-2 absolute top-5 left-4">
