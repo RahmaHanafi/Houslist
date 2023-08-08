@@ -312,56 +312,56 @@ export default function Home() {
         </div>
 
         <section className="flex flex-wrap justify-center space-x-2 max-sm:py-10 md:py-16 xl:py-28">
-          <div className="xl:w-3/12 space-y-5">
-            <p className="uppercase font-semibold text-xl text-emerald-400  max-sm:text-center max-sm:relative list-disc">
+          <div className="w-10/12 md:w-3/12 space-y-5 py-10">
+            <p className="uppercase font-semibold text-xl text-emerald-400  text-center md:text-start max-sm:relative list-disc">
               our Clients
             </p>
-            <p className="capitalize text-3xl font-bold   font max-sm:text-center">
+            <p className="capitalize text-3xl font-bold   font text-center md:text-start">
               We're going to became partners for the long run
             </p>
-            <p className=" text-gray-500 text-base  max-sm:text-center">
+            <p className=" text-gray-500 text-base  text-center md:text-start">
               Ghen an unknown printer took a galley of type andscr ambledit to
               make a type specimen book has survived not only five centuries but
               also.
             </p>
           </div>
 
-          <div className="flex flex-wrap w-7/12 md:w-full lg:w-6/12 gap-5 justify-between max-sm:mx-auto">
+          <div className="flex flex-wrap w-10/12  md:w-1/2 lg:gap-5 justify-between max-sm:mx-auto">
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand1.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand6.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand2.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand3.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand4.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand5.svg"
-              className="filter-gray ease-in-out duration-300 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl"
+              className="filter-gray ease-in-out duration-300 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
             />
           </div>
         </section>
 
         <section className="bg-teal-50 py-12">
-          <div className="flex justify-between flex-wrap items-center w-9/12 sm:w-4/5 lg:w-3/4  mx-auto">
+          <div className="flex justify-between flex-wrap items-center w-10/12 sm:w-4/5 lg:w-3/4  mx-auto">
             <Title
               bgTitle={"properties"}
               subTitle={"Our PROPERTIES"}
               primaryTitle={"Latest Properties"}
             />
-            <div className="space-x-2 mt-5 xl:mt-16 mx-auto md:mx-0">
+            <div className="space-x-2 mt-5 xl:mt-16 mx-auto  md:mx-0">
               {types.map((type) => (
                 <button
                   key={type.id}
