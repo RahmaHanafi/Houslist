@@ -216,9 +216,9 @@ export default function Home() {
 
   return (
     <>
-      <div className="relative">
+      <div className="relative bg-white">
         <div className="bg">
-          <nav className="bg-opacity-0 border-gray-200 dark:bg-gray-900">
+          <nav className="bg-opacity-0 border-gray-200 ">
             <div className="w-11/12 flex items-center justify-between mx-auto p-4 ">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
@@ -311,12 +311,12 @@ export default function Home() {
           <FirstSection />
         </div>
 
-        <section className="flex flex-wrap justify-center space-x-2 max-sm:py-10 md:py-16 xl:py-28">
+        <section className="flex flex-wrap justify-center space-x-2 max-sm:py-10 md:py-16 xl:py-28 gap-5">
           <div className="w-10/12 md:w-3/12 space-y-5 py-10">
             <p className="uppercase font-semibold text-xl text-emerald-400  text-center md:text-start max-sm:relative list-disc">
               our Clients
             </p>
-            <p className="capitalize text-3xl font-bold   font text-center md:text-start">
+            <p className="capitalize text-3xl font-bold   font text-center text-black md:text-start">
               We're going to became partners for the long run
             </p>
             <p className=" text-gray-500 text-base  text-center md:text-start">
@@ -366,7 +366,7 @@ export default function Home() {
                 <button
                   key={type.id}
                   className={
-                    "btn rounded-full btn-outline border-emerald-400 hover:bg-emerald-400 hover:border-emerald-400 " +
+                    "btn rounded-full btn-outline border-emerald-400 hover:bg-emerald-400 hover:border-emerald-400 hover:text-white " +
                     (type.id === currenttype
                       ? " bg-emerald-400 text-white"
                       : " text-gray-500")

@@ -23,7 +23,7 @@ export default function AgentsCard({
       </div>
 
       <div className="px-4 pb-6 space-y-1">
-        <h1 className=" text-xl font group-hover:text-emerald-500 ease-in duration-200">
+        <h1 className=" text-xl font text-black group-hover:text-emerald-500 ease-in duration-200">
           {name}
         </h1>
         <p className="text-stone-500 text-sm font-semibold">{description}</p>

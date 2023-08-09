@@ -4,7 +4,7 @@ export default function IconButton({ icon, flag }) {
       {flag ? (
         ""
       ) : (
-        <span className="badge badge-md bg-emerald-400 absolute right-0  bottom-9 group-hover:text-emerald-400 group-hover:bg-white group-hover:border-white">
+        <span className="badge badge-md bg-emerald-400 border-emerald-400 absolute right-0  bottom-9 text-white group-hover:text-emerald-400 group-hover:bg-white group-hover:border-white">
           0
         </span>
       )}

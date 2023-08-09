@@ -17,7 +17,7 @@ export default function CityCard({ img, title }) {
       <div className="flex justify-between px-4">
         <div className="py-4 space-y-1">
           <p className="text-stone-500 text-sm font-semibold">02 properties</p>
-          <h1 className=" text-xl font group-hover:text-emerald-500 ease-in duration-200">
+          <h1 className=" text-xl font text-black group-hover:text-emerald-500 ease-in duration-200">
             {title}
           </h1>
         </div>
