@@ -13,7 +13,7 @@ export default function Title({
       <p className="uppercase font-semibold text-emerald-400 lg:absolute lg:top-14 text-center md:text-start max-sm:relative">
         {subTitle}
       </p>
-      <p className="capitalize text-3xl font-bold lg:absolute lg:top-20 font text-center md:text-start max-sm:relative">
+      <p className="capitalize text-3xl text-black font-bold lg:absolute lg:top-20 font text-center md:text-start max-sm:relative">
         {primaryTitle}
       </p>
     </div>

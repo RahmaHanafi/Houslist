@@ -37,7 +37,7 @@ export default function PropertyCard({
       </div>
 
       <div className="p-4 space-y-2">
-        <h1 className=" text-xl font group-hover:text-emerald-500 cursor-pointer ease-in duration-200">
+        <h1 className=" text-xl text-black font group-hover:text-emerald-500 cursor-pointer ease-in duration-200">
           {title}
         </h1>
         <p className="text-stone-500">
