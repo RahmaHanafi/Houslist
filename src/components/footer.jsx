@@ -8,7 +8,7 @@ export default function Footer() {
               <div className="space-y-5 w-full">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Flogo_light.png?alt=media&token=06f0238a-cb8c-4afe-8c04-aa4b40a04502"
-                  className="h-10 mr-3"
+                  className="h-10 mr-3  w-auto"
                   alt="Flowbite Logo"
                 />
                 <p className=" text-gray-300 text-base w-full">
@@ -36,9 +36,9 @@ export default function Footer() {
               </div>
             </div>
             <div className="w-full sm:w-4/12 lg:w-1/6 space-y-5 ">
-              <h4 className="font text-white font-semibold text-xl">
+              <h1 className="font text-white font-semibold text-xl">
                 Quick Links
-              </h4>
+              </h1>
               <hr className=" w-14 "></hr>
               <ul className=" text-gray-300 font-semibold list-disc px-3">
                 <li className=" hover:text-emerald-400 hover:translate-x-3 duration-300 cursor-pointer">
@@ -59,9 +59,9 @@ export default function Footer() {
               </ul>
             </div>
             <div className="w-full sm:w-7/12 lg:w-1/3 space-y-5 ">
-              <h4 className="font text-white font-semibold text-xl">
+              <h1 className="font text-white font-semibold text-xl">
                 Instagram
-              </h4>
+              </h1>
               <hr className=" w-14 "></hr>
               <div className="flex flex-wrap gap-2 w-full">
                 <div className=" overflow-hidden relative group w-24 h-24 cursor-pointer">
@@ -127,7 +127,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="w-full sm:w-4/12 lg:w-1/6 space-y-5 ">
-              <h4 className="font text-white font-semibold text-xl">Contact</h4>
+              <h1 className="font text-white font-semibold text-xl">Contact</h1>
               <hr className=" w-14 "></hr>
 
               <div className="flex space-x-2">
@@ -155,13 +155,13 @@ export default function Footer() {
           <div className="flex flex-wrap gap-5">
             <a
               className=" text-gray-300 hover:text-emerald-400 ease-in-out duration-300 cursor-pointer  "
-              href=""
+              href="#"
             >
               Terms of Use
             </a>
             <a
               className=" text-gray-300 hover:text-emerald-400 ease-in-out duration-300 cursor-pointer "
-              href=""
+              href="#"
             >
               Privacy Policy
             </a>

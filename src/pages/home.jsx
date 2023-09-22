@@ -218,11 +218,11 @@ export default function Home() {
       <div className="relative bg-white">
         <div className="bg">
           <nav className="bg-opacity-0 border-gray-200 ">
-            <div className="w-11/12 flex items-center justify-between mx-auto p-4 ">
+            <div className="w-11/12 md:w-10/12 flex items-center justify-between mx-auto p-4 ">
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Flogo_light.png?alt=media&token=06f0238a-cb8c-4afe-8c04-aa4b40a04502"
-                  className="h-10 mr-3"
+                  className="h-10 mr-3 w-auto"
                   alt="Flowbite Logo"
                 />
               </a>
@@ -332,32 +332,32 @@ export default function Home() {
           <div className="flex flex-wrap w-10/12  md:w-1/2 lg:gap-5 justify-between max-sm:mx-auto">
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand1.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
               alt="brand1"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand6.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
               alt="brand6"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand2.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
               alt="brand2"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand3.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
               alt="brand3"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand4.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
               alt="brand4"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand5.svg"
-              className="filter-gray ease-in-out duration-300 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              className="filter-gray ease-in-out duration-300 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
               alt="brand5"
             />
           </div>
