@@ -30,6 +30,7 @@ export default function ScrollButton() {
             (visible ? "fixed" : "none")
           }
           onClick={scrollToTop}
+          aria-label="scroll to top"
         >
           <i className="fa-solid fa-angle-up text-xl"></i>
         </button>

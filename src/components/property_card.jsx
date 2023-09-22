@@ -20,7 +20,7 @@ export default function PropertyCard({
       <div className="relative overflow-hidden cardImg rounded-t-lg">
         <img
           src={img}
-          alt="livng room"
+          alt={title}
           className="rounded-t-lg scale-100 group-hover:scale-110 ease-in duration-300  object-cover w-full"
           style={{ height: "17rem" }}
         />

@@ -6,7 +6,6 @@ import Title from "../components/title";
 import IconButton from "../components/icon_button";
 import AgentsCard from "../components/agent_card";
 import ScrollButton from "../components/scrollFloatingButton";
-import Footer from "../components/footer";
 import FirstSection from "../components/first_home_section";
 
 // const navbarPages = [{
@@ -250,15 +249,18 @@ export default function Home() {
                 <IconButton
                   icon={<i className="fa-solid fa-code-compare"></i>}
                   flag={false}
+                  label={"compare"}
                   // className="max-sm:hidden"
                 />
                 <IconButton
                   icon={<i className="fa-regular fa-heart"></i>}
                   flag={false}
+                  label={"wishlist"}
                 />
                 <IconButton
                   icon={<i className="fa-regular fa-user"></i>}
                   flag={true}
+                  label={"profile"}
                 />
                 <button
                   type="button"
@@ -275,6 +277,7 @@ export default function Home() {
                   onClick={() => {
                     setmenuVisible(!menuVisible);
                   }}
+                  aria-label="navigation bar"
                 >
                   <i className="fa-solid fa-bars"></i>
                 </button>
@@ -437,8 +440,9 @@ export default function Home() {
               ref={chooseSectionRef}
             >
               <img
-                className="rounded-lg scale-90  hover:scale-95  ease-in duration-300  object-cover drop-shadow-xl"
+                className=" rounded-lg scale-90  hover:scale-95  ease-in duration-300  object-cover drop-shadow-xl"
                 src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhome.PNG?alt=media&token=6336d908-d268-4858-b18d-25adea214abe"
+                alt="Special Property"
               />
 
               <span className=" absolute flex h-8 w-8 bottom-1/2 right-1/2 ">
@@ -449,6 +453,7 @@ export default function Home() {
                     setvideoVisible(true);
                     console.log("open");
                   }}
+                  aria-label="play video"
                 >
                   <i className="fa-solid fa-play"></i>
                 </button>
@@ -547,7 +552,6 @@ export default function Home() {
         </section>
 
         <ScrollButton />
-        <Footer />
       </div>
     </>
   );

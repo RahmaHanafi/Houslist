@@ -8,7 +8,7 @@ export default function CityCard({ img, title }) {
       <div className="relative overflow-hidden rounded-t-lg">
         <img
           src={img}
-          alt="livng room"
+          alt={title}
           className="rounded-t-lg scale-100 group-hover:scale-110 cursor-pointer ease-in duration-300 object-cover w-full"
           style={{ height: "15rem" }}
         />
@@ -21,9 +21,12 @@ export default function CityCard({ img, title }) {
             {title}
           </h1>
         </div>
-        <div className="rotate-45 bg-emerald-50  text-emerald-400 rounded-full w-10 h-10 text-center py-1 my-auto group-hover:rotate-0  ease-in duration-300 group-hover:bg-emerald-400  group-hover:text-white">
+        <button
+          className="rotate-45 bg-emerald-50  text-emerald-400 rounded-full w-10 h-10 text-center py-1 my-auto group-hover:rotate-0  ease-in duration-300 group-hover:bg-emerald-400  group-hover:text-white"
+          aria-label="read more"
+        >
           <i className="fa-solid fa-arrow-up text-xl"></i>
-        </div>
+        </button>
       </div>
     </div>
   );
