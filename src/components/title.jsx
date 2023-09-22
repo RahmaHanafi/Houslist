@@ -6,7 +6,7 @@ export default function Title({
 }) {
   return (
     <div className="relative mx-auto md:mx-0 max-sm:w-10/12">
-      <p className="bg-font text-5xl text-center lg:text-9xl md:text-start text-gray-300 ">
+      <p className="bg-font text-5xl text-center lg:text-9xl md:text-start text-gray-400 ">
         {bgTitle}
       </p>
 
