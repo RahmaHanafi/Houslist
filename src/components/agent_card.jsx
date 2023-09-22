@@ -14,7 +14,7 @@ export default function AgentsCard({
           className=" scale-100 group-hover:scale-110 cursor-pointer ease-in duration-300  object-cover w-full"
           style={{ height: "15rem" }}
         />
-        <div className="bg-white text-emerald-500 w-28 text-center font-semibold p-1 absolute   left-4 bottom-4 z-10 hover:bg-emerald-500 hover:text-white">
+        <div className="bg-white text-emerald-600 w-28 text-center font-semibold p-1 absolute   left-4 bottom-4 z-10 hover:bg-emerald-600 hover:text-white">
           {Listings} Listings
         </div>
         <button
