@@ -1,4 +1,4 @@
-export default function IconButton({ icon, flag }) {
+export default function IconButton({ icon, flag, label }) {
   return (
     <div className=" relative group">
       {flag ? (
@@ -9,7 +9,10 @@ export default function IconButton({ icon, flag }) {
         </span>
       )}
 
-      <button className="btn btn-circle btn-outline border-white text-white hover:bg-emerald-400 hover:border-emerald-400 ">
+      <button
+        className="btn btn-circle btn-outline border-white text-white hover:bg-emerald-400 hover:border-emerald-400 "
+        aria-label={label}
+      >
         {icon}
       </button>
     </div>

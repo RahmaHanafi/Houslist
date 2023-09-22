@@ -45,7 +45,7 @@ export default function FirstSection() {
         <div className="flex flex-wrap gap-5 mx-auto pt-10 pb-4 justify-center">
           {categories.map((category) => (
             <div key={category.id} className="flex gap-1">
-              <div
+              <button
                 className={
                   "w-8 h-8 rounded-full text-center hover:bg-emerald-400 cursor-pointer ease-in duration-300 " +
                   (category.id === currentcategory
@@ -55,9 +55,10 @@ export default function FirstSection() {
                 onClick={() => {
                   setCurrentcategory(category.id);
                 }}
+                aria-label={category.name}
               >
                 <i className={category.icon + " text-white py-1 text-sm"}></i>
-              </div>
+              </button>
               <p className="text-white">{category.name}</p>
             </div>
           ))}
@@ -73,14 +74,20 @@ export default function FirstSection() {
               required
             />
 
-            <select className="p-3 w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none  text-gray-400 bg-white border shadow-sm outline-none cursor-pointer">
+            <select
+              className="p-3 w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none  text-gray-400 bg-white border shadow-sm outline-none cursor-pointer"
+              aria-label="Property Type"
+            >
               <option>Property Type</option>
               <option>Family House</option>
               <option>Apartment</option>
               <option>Condo</option>
             </select>
 
-            <select className="p-3  w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none text-gray-400 bg-white border shadow-sm outline-none cursor-pointer">
+            <select
+              className="p-3  w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none text-gray-400 bg-white border shadow-sm outline-none cursor-pointer"
+              aria-label="All Cities"
+            >
               <option>All Cities</option>
               <option>Los Angeles</option>
               <option>Chicago</option>
