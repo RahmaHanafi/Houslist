@@ -48,13 +48,13 @@ export default function PropertyCard({
             <div className="bg-emerald-50 rounded-full w-7 h-7 text-center">
               <i className="fa-solid fa-bed text-emerald-400 text-sm"></i>
             </div>
-            <p className="text-stone-400 text-sm py-1">Beds: 03</p>
+            <p className="text-stone-500 text-sm py-1">Beds: 03</p>
           </div>
           <div className="flex space-x-2">
             <div className="bg-teal-50 rounded-full w-7 h-7 text-center">
               <i className="fa-solid fa-shower text-emerald-400 text-sm"></i>
             </div>
-            <p className="text-stone-400 text-sm py-1">Baths: 02</p>
+            <p className="text-stone-500 text-sm py-1">Baths: 02</p>
           </div>
         </div>
       </div>

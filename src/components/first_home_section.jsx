@@ -69,13 +69,13 @@ export default function FirstSection() {
             <input
               type="search"
               id="search-dropdown"
-              className="block p-3 z-20 w-11/12 md:w-4/12 max-sm:mx-auto rounded-lg md:rounded-r-none text-sm text-gray-900 bg-white  border-l-gray-100 border-l-2 border border-gray-300 !outline-none "
+              className="block p-3 z-20 w-11/12 md:w-4/12 max-sm:mx-auto rounded-lg md:rounded-r-none text-sm text-gray-600 bg-white  border-l-gray-100 border-l-2 border border-gray-300 !outline-none "
               placeholder="Enter keyword here..."
               required
             />
 
             <select
-              className="p-3 w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none  text-gray-400 bg-white border shadow-sm outline-none cursor-pointer"
+              className="p-3 w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none  text-gray-500 bg-white border shadow-sm outline-none cursor-pointer"
               aria-label="Property Type"
             >
               <option>Property Type</option>
@@ -85,7 +85,7 @@ export default function FirstSection() {
             </select>
 
             <select
-              className="p-3  w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none text-gray-400 bg-white border shadow-sm outline-none cursor-pointer"
+              className="p-3  w-11/12 md:w-3/12 max-sm:mx-auto rounded-lg md:rounded-none text-gray-500 bg-white border shadow-sm outline-none cursor-pointer"
               aria-label="All Cities"
             >
               <option>All Cities</option>
@@ -96,7 +96,7 @@ export default function FirstSection() {
 
             <button
               type="submit"
-              className="md:w-2/12 uppercase gap-2 flex justify-center font p-5 text-sm font-medium text-white  bg-emerald-400 hover:bg-emerald-500 group max-sm:mx-auto rounded-lg md:rounded-l-none"
+              className="md:w-2/12 uppercase gap-2 flex justify-center font p-5 text-sm font-medium text-white  bg-emerald-500 hover:bg-emerald-600 group max-sm:mx-auto rounded-lg md:rounded-l-none"
             >
               <i className="fa-solid fa-magnifying-glass group-hover:scale-125  py-1 ease-in duration-300"></i>
               Search

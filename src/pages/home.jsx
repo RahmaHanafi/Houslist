@@ -228,19 +228,19 @@ export default function Home() {
               </a>
 
               <ul className="gap-5 hidden xl:flex">
-                <li className=" text-emerald-400 text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-emerald-500 text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
                   Home
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
                   About
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
                   Property
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
-                  papes
+                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
+                  pages
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
                   Contact
                 </li>
               </ul>
@@ -264,7 +264,7 @@ export default function Home() {
                 />
                 <button
                   type="button"
-                  className="font text-white bg-emerald-400 hover:bg-emerald-500  rounded-full font-medium px-4 py-2 text-center  md:mr-0 group "
+                  className="font text-white bg-emerald-500 hover:bg-emerald-500  rounded-full font-medium px-4 py-2 text-center  md:mr-0 group "
                 >
                   <i className="fa-solid fa-circle-plus group-hover:rotate-180 ease-in duration-300 me-2"></i>
                   Add Property
@@ -273,7 +273,7 @@ export default function Home() {
 
               <div className=" xl:hidden">
                 <button
-                  className="btn  btn-circle bg-white text-emerald-400  xl:hidden hover:bg-emerald-400 hover:text-white "
+                  className="btn  btn-circle bg-white text-emerald-500  xl:hidden hover:bg-emerald-500 hover:text-white "
                   onClick={() => {
                     setmenuVisible(!menuVisible);
                   }}
@@ -287,23 +287,23 @@ export default function Home() {
                       menuVisible ? "ease-in-out duration-300  " : "hidden"
                     }
                   >
-                    <li className="text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className="text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
                       Home
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
                       About
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
                       Property
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
                       papes
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-400 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
                       Contact
                     </li>
                   </ul>
@@ -316,7 +316,7 @@ export default function Home() {
 
         <section className="flex flex-wrap justify-center space-x-2 max-sm:py-10 md:py-16 xl:py-28 gap-5">
           <div className="w-10/12 md:w-3/12 space-y-5 py-10">
-            <p className="uppercase font-semibold text-xl text-emerald-400  text-center md:text-start max-sm:relative list-disc">
+            <p className="uppercase font-semibold text-xl text-emerald-500  text-center md:text-start max-sm:relative list-disc">
               our Clients
             </p>
             <p className="capitalize text-3xl font-bold   font text-center text-black md:text-start">
@@ -333,26 +333,32 @@ export default function Home() {
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand1.svg"
               className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              alt="brand1"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand6.svg"
               className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              alt="brand6"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand2.svg"
               className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              alt="brand2"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand3.svg"
               className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              alt="brand3"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand4.svg"
               className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              alt="brand4"
             />
             <img
               src="https://www.templates.sokowave.com/houslisti/img/brand/brand5.svg"
               className="filter-gray ease-in-out duration-300 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4"
+              alt="brand5"
             />
           </div>
         </section>
@@ -369,9 +375,9 @@ export default function Home() {
                 <button
                   key={type.id}
                   className={
-                    "btn rounded-full btn-outline border-emerald-400 hover:bg-emerald-400 hover:border-emerald-400 hover:text-white " +
+                    "btn rounded-full btn-outline border-emerald-500 hover:bg-emerald-500 hover:border-emerald-500 hover:text-white " +
                     (type.id === currenttype
-                      ? " bg-emerald-400 text-white"
+                      ? " bg-emerald-500 text-white"
                       : " text-gray-500")
                   }
                   onClick={() => {
@@ -446,9 +452,9 @@ export default function Home() {
               />
 
               <span className=" absolute flex h-8 w-8 bottom-1/2 right-1/2 ">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
                 <button
-                  className="relative btn btn-circle border-white  bg-white text-emerald-400  hover:bg-emerald-400 hover:border-emerald-400 hover:text-white bottom-2 right-2 "
+                  className="relative btn btn-circle border-white  bg-white text-emerald-500  hover:bg-emerald-500 hover:border-emerald-500 hover:text-white bottom-2 right-2 "
                   onClick={() => {
                     setvideoVisible(true);
                     console.log("open");
@@ -479,23 +485,23 @@ export default function Home() {
               </p>
 
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-400 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
                 <p className=" font-semibold">Outstanding property</p>
               </div>
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-400 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
                 <p className=" font-semibold">Modern City Locations</p>
               </div>
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-400 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
                 <p className=" font-semibold">Specialist services</p>
               </div>
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-400 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
                 <p className=" font-semibold">Market-leading research</p>
               </div>
               <div className="flex justify-center md:justify-start">
-                <button className=" btn mt-5 bg-emerald-50 border-emerald-50 text-emerald-500 hover:bg-emerald-400 hover:text-white hover:border-emerald-400 ">
+                <button className=" btn mt-5 bg-emerald-50 border-emerald-50 text-emerald-500 hover:bg-emerald-500 hover:text-white hover:border-emerald-500 ">
                   Read more
                 </button>
               </div>
