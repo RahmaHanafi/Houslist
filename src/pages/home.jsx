@@ -7,6 +7,7 @@ import IconButton from "../components/icon_button";
 import AgentsCard from "../components/agent_card";
 import ScrollButton from "../components/scrollFloatingButton";
 import FirstSection from "../components/first_home_section";
+import OurClients from "../components/our_clients";
 
 // const navbarPages = [{
 //   id:0,
@@ -314,54 +315,7 @@ export default function Home() {
           <FirstSection />
         </div>
 
-        <section className="flex flex-wrap justify-center space-x-2 max-sm:py-10 md:py-16 xl:py-28 gap-5">
-          <div className="w-10/12 md:w-3/12 space-y-5 py-10">
-            <p className="uppercase font-semibold text-xl text-emerald-500  text-center md:text-start max-sm:relative list-disc">
-              our Clients
-            </p>
-            <p className="capitalize text-3xl font-bold   font text-center text-black md:text-start">
-              We're going to became partners for the long run
-            </p>
-            <p className=" text-gray-500 text-base  text-center md:text-start">
-              Ghen an unknown printer took a galley of type andscr ambledit to
-              make a type specimen book has survived not only five centuries but
-              also.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap w-10/12  md:w-1/2 lg:gap-5 justify-between max-sm:mx-auto">
-            <img
-              src="https://www.templates.sokowave.com/houslisti/img/brand/brand1.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
-              alt="brand1"
-            />
-            <img
-              src="https://www.templates.sokowave.com/houslisti/img/brand/brand6.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
-              alt="brand6"
-            />
-            <img
-              src="https://www.templates.sokowave.com/houslisti/img/brand/brand2.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
-              alt="brand2"
-            />
-            <img
-              src="https://www.templates.sokowave.com/houslisti/img/brand/brand3.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
-              alt="brand3"
-            />
-            <img
-              src="https://www.templates.sokowave.com/houslisti/img/brand/brand4.svg"
-              className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
-              alt="brand4"
-            />
-            <img
-              src="https://www.templates.sokowave.com/houslisti/img/brand/brand5.svg"
-              className="filter-gray ease-in-out duration-300 cursor-pointer hover:shadow-emerald-100 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-auto"
-              alt="brand5"
-            />
-          </div>
-        </section>
+        <OurClients />
 
         <section className="bg-teal-50 py-12">
           <div className="flex justify-between flex-wrap items-center w-10/12 sm:w-4/5 lg:w-3/4  mx-auto">
