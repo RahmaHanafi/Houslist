@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <>
       <footer>
-        <div className="footerBg py-20 ">
+        <div className=" bg-footerBg bg-fixed bg-no-repeat py-20 ">
           <div className="w-10/12 sm:w-4/5 lg:w-3/4 flex flex-wrap justify-between lg:justify-center gap-8 lg:gap-5 mx-auto">
             <div className="w-full sm:w-7/12 lg:w-1/4 max-sm:flex max-sm:justify-center">
               <div className="space-y-5 w-full">
