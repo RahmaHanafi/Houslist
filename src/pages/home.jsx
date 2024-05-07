@@ -223,19 +223,19 @@ export default function Home() {
               </a>
 
               <ul className="gap-5 hidden xl:flex">
-                <li className=" text-emerald-500 text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-emerald-300 text-xl font hover:text-emerald-300 ease-in-out duration-300 cursor-pointer">
                   Home
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-white text-xl font hover:text-emerald-300 ease-in-out duration-300 cursor-pointer">
                   About
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-white text-xl font hover:text-emerald-300 ease-in-out duration-300 cursor-pointer">
                   Property
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-white text-xl font hover:text-emerald-300 ease-in-out duration-300 cursor-pointer">
                   pages
                 </li>
-                <li className=" text-white text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer">
+                <li className=" text-white text-xl font hover:text-emerald-300 ease-in-out duration-300 cursor-pointer">
                   Contact
                 </li>
               </ul>
@@ -259,7 +259,7 @@ export default function Home() {
                 />
                 <button
                   type="button"
-                  className="font text-white bg-emerald-500 hover:bg-emerald-500  rounded-full font-medium px-4 py-2 text-center  md:mr-0 group "
+                  className="font text-white bg-emerald-800 hover:bg-emerald-800  rounded-full font-medium px-4 py-2 text-center  md:mr-0 group "
                 >
                   <i className="fa-solid fa-circle-plus group-hover:rotate-180 ease-in duration-300 me-2"></i>
                   Add Property
@@ -268,7 +268,7 @@ export default function Home() {
 
               <div className=" xl:hidden">
                 <button
-                  className="btn  btn-circle bg-white text-emerald-500  xl:hidden hover:bg-emerald-500 hover:text-white "
+                  className="btn  btn-circle bg-white text-emerald-800  xl:hidden hover:bg-emerald-800 hover:text-white "
                   onClick={() => {
                     setmenuVisible(!menuVisible);
                   }}
@@ -282,23 +282,23 @@ export default function Home() {
                       menuVisible ? "ease-in-out duration-300  " : "hidden"
                     }
                   >
-                    <li className="text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className="text-black text-xl font hover:text-emerald-800 ease-in-out duration-300 cursor-pointer p-2">
                       Home
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-800 ease-in-out duration-300 cursor-pointer p-2">
                       About
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-800 ease-in-out duration-300 cursor-pointer p-2">
                       Property
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-800 ease-in-out duration-300 cursor-pointer p-2">
                       papes
                     </li>
                     <hr></hr>
-                    <li className=" text-black text-xl font hover:text-emerald-500 ease-in-out duration-300 cursor-pointer p-2">
+                    <li className=" text-black text-xl font hover:text-emerald-800 ease-in-out duration-300 cursor-pointer p-2">
                       Contact
                     </li>
                   </ul>
@@ -323,9 +323,9 @@ export default function Home() {
                 <button
                   key={type.id}
                   className={
-                    "btn rounded-full btn-outline border-emerald-500 hover:bg-emerald-500 hover:border-emerald-500 hover:text-white " +
+                    "btn rounded-full btn-outline border-emerald-800 hover:bg-emerald-800 hover:border-emerald-800 hover:text-white " +
                     (type.id === currenttype
-                      ? " bg-emerald-500 text-white"
+                      ? " bg-emerald-800 text-white"
                       : " text-gray-500")
                   }
                   onClick={() => {
@@ -400,9 +400,9 @@ export default function Home() {
               />
 
               <span className=" absolute flex h-8 w-8 bottom-1/2 right-1/2 ">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-75"></span>
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-800 opacity-75"></span>
                 <button
-                  className="relative btn btn-circle border-white  bg-white text-emerald-500  hover:bg-emerald-500 hover:border-emerald-500 hover:text-white bottom-2 right-2 "
+                  className="relative btn btn-circle border-white  bg-white text-emerald-800  hover:bg-emerald-800 hover:border-emerald-800 hover:text-white bottom-2 right-2 "
                   onClick={() => {
                     setvideoVisible(true);
                     console.log("open");
@@ -433,23 +433,23 @@ export default function Home() {
               </p>
 
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-800 py-1"></i>
                 <p className=" font-semibold">Outstanding property</p>
               </div>
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-800 py-1"></i>
                 <p className=" font-semibold">Modern City Locations</p>
               </div>
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-800 py-1"></i>
                 <p className=" font-semibold">Specialist services</p>
               </div>
               <div className="flex space-x-2 justify-center md:justify-start">
-                <i className="fa-solid fa-check text-emerald-500 py-1"></i>
+                <i className="fa-solid fa-check text-emerald-800 py-1"></i>
                 <p className=" font-semibold">Market-leading research</p>
               </div>
               <div className="flex justify-center md:justify-start">
-                <button className=" btn mt-5 bg-emerald-50 border-emerald-50 text-emerald-500 hover:bg-emerald-500 hover:text-white hover:border-emerald-500 ">
+                <button className=" btn mt-5 bg-emerald-50 border-emerald-50 text-emerald-800 hover:bg-emerald-800 hover:text-white hover:border-emerald-800 ">
                   Read more
                 </button>
               </div>

@@ -26,7 +26,7 @@ export default function ScrollButton() {
       <div className="d-flex flex-row-reverse ">
         <button
           className={
-            "z-50 btn btn-circle text-emerald-50  bg-emerald-400  border-emerald-400 hover:bg-emerald-600 hover:border-emerald-600 text-center py-1  me-10 mb-10 cursor-pointer bottom-0 right-0 non " +
+            "z-50 btn btn-circle text-emerald-50  bg-emerald-700  border-emerald-700 hover:bg-emerald-900 hover:border-emerald-900 text-center py-1  me-10 mb-10 cursor-pointer bottom-0 right-0 non " +
             (visible ? "fixed" : "none")
           }
           onClick={scrollToTop}

@@ -47,9 +47,9 @@ export default function FirstSection() {
             <div key={category.id} className="flex gap-1">
               <button
                 className={
-                  "w-8 h-8 rounded-full text-center hover:bg-emerald-400 cursor-pointer ease-in duration-300 " +
+                  "w-8 h-8 rounded-full text-center hover:bg-emerald-800 cursor-pointer ease-in duration-300 " +
                   (category.id === currentcategory
-                    ? " bg-emerald-400"
+                    ? " bg-emerald-800"
                     : "  bg-gray-100 bg-opacity-25 ")
                 }
                 onClick={() => {
@@ -96,7 +96,7 @@ export default function FirstSection() {
 
             <button
               type="submit"
-              className="md:w-2/12 uppercase gap-2 flex justify-center font p-5 text-sm font-medium text-white  bg-emerald-500 hover:bg-emerald-600 group max-sm:mx-auto rounded-lg md:rounded-l-none"
+              className="md:w-2/12 uppercase gap-2 flex justify-center font p-5 text-sm font-medium text-white  bg-emerald-700 hover:bg-emerald-800 group max-sm:mx-auto rounded-lg md:rounded-l-none"
             >
               <i className="fa-solid fa-magnifying-glass group-hover:scale-125  py-1 ease-in duration-300"></i>
               Search

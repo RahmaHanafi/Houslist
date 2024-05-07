@@ -4,13 +4,13 @@ export default function IconButton({ icon, flag, label }) {
       {flag ? (
         ""
       ) : (
-        <span className="badge badge-md bg-emerald-400 border-emerald-400 absolute right-0  bottom-9 text-white group-hover:text-emerald-400 group-hover:bg-white group-hover:border-white">
+        <span className="badge badge-md bg-emerald-800 border-emerald-800 absolute right-0  bottom-9 text-white group-hover:text-emerald-800 group-hover:bg-white group-hover:border-white ">
           0
         </span>
       )}
 
       <button
-        className="btn btn-circle btn-outline border-white text-white hover:bg-emerald-400 hover:border-emerald-400 "
+        className="btn btn-circle btn-outline border-white text-white hover:bg-emerald-800 hover:border-emerald-800 group-hover:text-white"
         aria-label={label}
       >
         {icon}

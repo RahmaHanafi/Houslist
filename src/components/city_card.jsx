@@ -23,12 +23,12 @@ const CityCard = ({ img, title, scrollPosition }) => {
       <div className="flex justify-between px-4">
         <div className="py-4 space-y-1">
           <p className="text-stone-500 text-sm font-semibold">02 properties</p>
-          <h1 className=" text-xl font text-black group-hover:text-emerald-500 ease-in duration-200">
+          <h1 className=" text-xl font text-black group-hover:text-emerald-800 ease-in duration-200">
             {title}
           </h1>
         </div>
         <button
-          className="rotate-45 bg-emerald-50  text-emerald-400 rounded-full w-10 h-10 text-center py-1 my-auto group-hover:rotate-0  ease-in duration-300 group-hover:bg-emerald-400  group-hover:text-white"
+          className="rotate-45 bg-emerald-50  text-emerald-800 rounded-full w-10 h-10 text-center py-1 my-auto group-hover:rotate-0  ease-in duration-300 group-hover:bg-emerald-800  group-hover:text-white"
           aria-label="read more"
         >
           <i className="fa-solid fa-arrow-up text-xl"></i>

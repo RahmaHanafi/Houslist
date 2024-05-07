@@ -25,7 +25,7 @@ const AgentsCard = ({
           {Listings} Listings
         </div>
         <button
-          className=" hidden rounded-full w-10 h-10 text-center py-2 my-auto absolute group-hover:inline  ease-in duration-300 group-hover:bg-emerald-400  group-hover:text-white top-4 right-4"
+          className=" hidden rounded-full w-10 h-10 text-center py-2 my-auto absolute group-hover:inline  ease-in duration-300 group-hover:bg-emerald-800  group-hover:text-white top-4 right-4"
           aria-label="contact accounts"
         >
           <i className="fa-solid fa-diagram-project text-xl"></i>
@@ -33,7 +33,7 @@ const AgentsCard = ({
       </div>
 
       <div className="px-4 pb-6 space-y-1">
-        <h1 className=" text-xl font text-black group-hover:text-emerald-500 ease-in duration-200">
+        <h1 className=" text-xl font text-black group-hover:text-emerald-800 ease-in duration-200">
           {name}
         </h1>
         <p className="text-stone-500 text-sm font-semibold">{description}</p>

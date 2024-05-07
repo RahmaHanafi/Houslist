@@ -3,9 +3,9 @@ export default function CustomButton({ title, id, currentCategory }) {
     <>
       <button
         className={
-          "btn rounded-full btn-outline border-emerald-500 hover:bg-emerald-600 hover:text-white " +
+          "btn rounded-full btn-outline border-emerald-800 hover:bg-emerald-800 hover:text-white " +
           (id === currentCategory
-            ? " bg-emerald-500 text-white"
+            ? " bg-emerald-800 text-white"
             : " text-gray-500")
         }
       >

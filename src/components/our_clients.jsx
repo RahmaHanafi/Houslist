@@ -39,7 +39,7 @@ const OurClients = ({ scrollPosition }) => {
   return (
     <section className="flex flex-wrap justify-center space-x-2 max-sm:py-10 md:py-16 xl:py-28 gap-5">
       <div className="w-10/12 md:w-3/12 space-y-5 py-10">
-        <p className="uppercase font-semibold text-xl text-emerald-500  text-center md:text-start max-sm:relative list-disc">
+        <p className="uppercase font-semibold text-xl text-emerald-800  text-center md:text-start max-sm:relative list-disc">
           our Clients
         </p>
         <p className="capitalize text-3xl font-bold   font text-center text-black md:text-start">
