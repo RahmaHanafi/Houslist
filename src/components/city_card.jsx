@@ -1,4 +1,9 @@
-export default function CityCard({ img, title }) {
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
+
+const CityCard = ({ img, title, scrollPosition }) => {
   return (
     <div
       className={
@@ -6,11 +11,12 @@ export default function CityCard({ img, title }) {
       }
     >
       <div className="relative overflow-hidden rounded-t-lg">
-        <img
+        <LazyLoadImage
           src={img}
           alt={title}
           className="rounded-t-lg scale-100 group-hover:scale-110 cursor-pointer ease-in duration-300 object-cover w-full"
           style={{ height: "15rem" }}
+          scrollPosition={scrollPosition}
         />
       </div>
 
@@ -30,4 +36,6 @@ export default function CityCard({ img, title }) {
       </div>
     </div>
   );
-}
+};
+
+export default trackWindowScroll(CityCard);

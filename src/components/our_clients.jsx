@@ -1,4 +1,9 @@
-const OurClients = () => {
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
+
+const OurClients = ({ scrollPosition }) => {
   const brands = [
     {
       id: 0,
@@ -48,11 +53,12 @@ const OurClients = () => {
 
       <div className="flex flex-wrap w-10/12  md:w-1/2 lg:gap-5 justify-between max-sm:mx-auto">
         {brands.map((brand) => (
-          <img
+          <LazyLoadImage
             src={brand.logo}
             className="filter-gray ease-in-out duration-500 cursor-pointer hover:shadow-emerald-100 hover:z-50 hover:shadow-xl w-1/2 sm:w-1/3 lg:w-1/4 h-28 "
             alt={brand.description}
             key={brand.id}
+            scrollPosition={scrollPosition}
           />
         ))}
       </div>
@@ -60,4 +66,4 @@ const OurClients = () => {
   );
 };
 
-export default OurClients;
+export default trackWindowScroll(OurClients);
