@@ -1,12 +1,18 @@
-export default function PropertyCard({
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
+
+const PropertyCard = ({
   img,
   type,
   amount,
   category,
   title,
+  scrollPosition,
   // howSectionRef,
   // visible,
-}) {
+}) => {
   return (
     <div
       className={
@@ -18,11 +24,12 @@ export default function PropertyCard({
       // ref={howSectionRef}
     >
       <div className="relative overflow-hidden cardImg rounded-t-lg">
-        <img
+        <LazyLoadImage
           src={img}
           alt={title}
           className="rounded-t-lg scale-100 group-hover:scale-110 ease-in duration-300  object-cover w-full"
           style={{ height: "17rem" }}
+          scrollPosition={scrollPosition}
         />
         <div className="bg-emerald-500 text-white w-20 text-center p-2 absolute top-5 left-4">
           For {type}
@@ -60,4 +67,6 @@ export default function PropertyCard({
       </div>
     </div>
   );
-}
+};
+
+export default trackWindowScroll(PropertyCard);

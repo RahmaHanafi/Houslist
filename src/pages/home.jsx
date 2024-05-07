@@ -9,12 +9,6 @@ import ScrollButton from "../components/scrollFloatingButton";
 import FirstSection from "../components/first_home_section";
 import OurClients from "../components/our_clients";
 
-// const navbarPages = [{
-//   id:0,
-//   title:"home",
-
-// }]
-
 export default function Home() {
   const [properties, setProperties] = useState([
     {
@@ -223,7 +217,7 @@ export default function Home() {
               <a href="https://flowbite.com/" className="flex items-center">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Flogo_light.png?alt=media&token=06f0238a-cb8c-4afe-8c04-aa4b40a04502"
-                  className="h-10 mr-3 w-auto"
+                  className="h-10 mr-3 w-auto aspect-auto"
                   alt="Flowbite Logo"
                 />
               </a>
@@ -400,7 +394,7 @@ export default function Home() {
               ref={chooseSectionRef}
             >
               <img
-                className=" rounded-lg scale-90  hover:scale-95  ease-in duration-300  object-cover drop-shadow-xl"
+                className=" rounded-lg scale-90  hover:scale-95  ease-in duration-300  object-cover drop-shadow-xl  aspect-square"
                 src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Fhome.PNG?alt=media&token=6336d908-d268-4858-b18d-25adea214abe"
                 alt="Special Property"
               />

@@ -1,18 +1,25 @@
-export default function AgentsCard({
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
+
+const AgentsCard = ({
   img,
   Listings,
   name,
   description,
   phone,
-}) {
+  scrollPosition,
+}) => {
   return (
     <div className="w-10/12 sm:w-2/5 lg:w-3/12 xl:w-1/6 shadow-xl bg-white  mx-3 mb-6 rounded-lg group cursor-pointer motion-safe:animate-wiggle">
       <div className="relative overflow-hidden  m-4 ">
-        <img
+        <LazyLoadImage
           src={img}
           alt={name}
-          className=" scale-100 group-hover:scale-110 cursor-pointer ease-in duration-300  object-cover w-full"
+          className=" scale-100 group-hover:scale-110 cursor-pointer ease-in duration-300  object-cover w-full aspect-auto"
           style={{ height: "15rem" }}
+          scrollPosition={scrollPosition}
         />
         <div className="bg-white text-emerald-800  w-28 text-center font-semibold p-1 absolute   left-4 bottom-4 z-10 hover:bg-emerald-800 hover:text-white">
           {Listings} Listings
@@ -36,4 +43,6 @@ export default function AgentsCard({
       </div>
     </div>
   );
-}
+};
+
+export default trackWindowScroll(AgentsCard);

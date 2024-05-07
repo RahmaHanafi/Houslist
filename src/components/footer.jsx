@@ -8,7 +8,7 @@ export default function Footer() {
               <div className="space-y-5 w-full">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/blog-5addf.appspot.com/o/images%2Flogo_light.png?alt=media&token=06f0238a-cb8c-4afe-8c04-aa4b40a04502"
-                  className="h-10 mr-3  w-auto"
+                  className="h-10 mr-3 w-auto aspect-auto"
                   alt="Flowbite Logo"
                 />
                 <p className=" text-gray-300 text-base w-full">
